@@ -12,9 +12,18 @@ body {
     font-family: 'Exo',
         sans-serif;
     font-weight: 300;
+    color: #3a3a3a;
 }
 
+/*Headings and logo*/
 h1 {
-    color: #A760FF;
+    font-family: 'Pacifico', cursive;
+    color: #2FDD92;
+    text-transform: uppercase;
+
+}
+
+#logo_container {
+    float: left;
 
 }
