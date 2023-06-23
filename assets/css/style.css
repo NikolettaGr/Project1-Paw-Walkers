@@ -30,6 +30,11 @@ h1 {
 
 }
 
+h1 i {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
 #logo_container {
     float: left;
 }
@@ -73,6 +78,9 @@ h1 {
     padding-left: 20px;
     padding-right: 20px;
     color: #3a3a3a;
+    font-family: 'Exo',
+        sans-serif;
+    font-weight: 700;
 }
 
 .btn:hover {
