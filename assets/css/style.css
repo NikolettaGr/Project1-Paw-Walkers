@@ -13,17 +13,70 @@ body {
         sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background: black;
 }
 
-/*Headings and logo*/
+/*Header and logo styling*/
+header {
+    background: #fafafa;
+    min-height: 80px;
+}
+
 h1 {
     font-family: 'Pacifico', cursive;
     color: #2FDD92;
     text-transform: uppercase;
+    margin-left: 50px;
 
 }
 
 #logo_container {
     float: left;
+}
 
+#logo_container a {
+    text-decoration: none;
+}
+
+/*Navigation links styling*/
+#menu {
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+#menu,
+#logo_container {
+    line-height: 80px;
+}
+
+/*Button*/
+.btn {
+    height: 45px;
+    background: #2FDD92;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #3a3a3a;
+}
+
+.btn:hover {
+    color: #fafafa;
+    font-weight: bold;
+    cursor: pointer;
 }
