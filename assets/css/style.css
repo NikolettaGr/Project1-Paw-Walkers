@@ -74,15 +74,20 @@ h1 i {
 
 /*Button*/
 .btn {
-    height: 45px;
-    background: #2FDD92;
+    background-color: #2FDD92;
     border-radius: 8px;
-    padding-left: 20px;
-    padding-right: 20px;
+    border-style: none;
+    box-sizing: border-box;
     color: #3a3a3a;
-    font-family: 'Exo',
-        sans-serif;
-    font-weight: 700;
+    font-size: 16px;
+    font-weight: 500;
+    height: 50px;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    transition: color 100ms;
+    vertical-align: baseline;
+    font-family: 'Exo', sans-serif;
 }
 
 .btn:hover {
@@ -96,7 +101,7 @@ h1 i {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 130px;
+    margin-left: 200px;
 }
 
 /*Styling hero image*/
@@ -109,12 +114,24 @@ h1 i {
 }
 
 /*Styling text on the hero image*/
-.text_overlay {
+.text {
+    width: 500px;
+    height: 500px;
     font-size: x-large;
     position: absolute;
-    top: 25%;
+    top: 20%;
     right: 80px;
     text-align: right;
     color: #3a3a3a;
     letter-spacing: 1px;
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 180%;
 }
