@@ -38,10 +38,6 @@ h1 i {
     float: left;
 }
 
-#logo_container a {
-    text-decoration: none;
-}
-
 /*Navigation links styling*/
 #menu {
     font-size: 110%;
@@ -54,7 +50,9 @@ h1 i {
     margin-right: 20px;
 }
 
-#menu a {
+#menu a,
+#logo_container a,
+.benefits_button a {
     text-decoration: none;
     color: inherit;
 }
@@ -93,10 +91,30 @@ h1 i {
     cursor: pointer;
 }
 
+.benefits_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
 /*Styling hero image*/
 #hero_image {
 
     height: 600px;
+    position: relative;
     width: 100%;
     background: url('../css/images/hero-image.jpg') no-repeat -200px -200px;
+}
+
+/*Styling text on the hero image*/
+.text_overlay {
+    font-size: x-large;
+    position: absolute;
+    top: 25%;
+    right: 80px;
+    text-align: right;
+    color: #3a3a3a;
+    letter-spacing: 1px;
 }
