@@ -124,6 +124,8 @@ h1 i {
     position: relative;
     width: 100%;
     background: url('../css/images/hero-image.jpg') no-repeat -200px -200px;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+        0 5px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
 /*Styling text on the hero image*/
@@ -154,8 +156,13 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 70px;
+    background-color: #f2f2f2;
+    height: 700px;
+}
+
+#about_us h2 {
+    position: absolute;
+    margin-bottom: 550px;
 }
 
 #about_us img {
@@ -189,8 +196,7 @@ h2 {
 }
 
 /*Styling the service section*/
-#services h2,
-.about {
+#services h2 {
     font-size: 35px;
     display: flex;
     justify-content: center;
@@ -225,4 +231,30 @@ h2 {
     font-size: 25px;
     margin-top: 5px;
     margin-bottom: 20px;
+}
+
+/*Styling contact section*/
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 80px;
+    background-color: #f2f2f2;
+    height: 60vh;
+}
+
+.details_column {
+    flex: 1;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+.map_column {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.green {
+    color: #00bf8f;
 }
