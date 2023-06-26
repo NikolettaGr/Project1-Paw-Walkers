@@ -24,7 +24,7 @@ header {
 
 h1 {
     font-family: 'Pacifico', cursive;
-    color: #2FDD92;
+    color: #00bf8f;
     text-transform: uppercase;
     margin-left: 50px;
 
@@ -46,6 +46,9 @@ h1 i {
     background-color: #ffffff;
     padding: 5px;
     z-index: 9999;
+
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+        0 5px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
 /*Navigation links styling*/
@@ -84,12 +87,12 @@ h1 i {
 
 /*Button*/
 .btn {
-    background-color: #2FDD92;
+    background-color: #00bf8f;
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
-    color: #3a3a3a;
-    font-size: 16px;
+    color: #fafafa;
+    font-size: 19px;
     font-weight: 500;
     height: 50px;
     margin: 0;
@@ -101,7 +104,7 @@ h1 i {
 }
 
 .btn:hover {
-    color: #fafafa;
+    color: #3a3a3a;
     font-weight: bold;
     cursor: pointer;
 }
