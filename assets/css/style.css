@@ -155,6 +155,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    margin-bottom: 70px;
 }
 
 #about_us img {
@@ -175,8 +176,21 @@ h2 {
     width: 600px;
 }
 
+.text_block {
+    margin-bottom: 10px;
+}
+
+.text_block h3 {
+    color: #00bf8f;
+}
+
+.text_block p {
+    margin-top: 5px;
+}
+
 /*Styling the service section*/
-#services h3 {
+#services h2,
+.about {
     font-size: 35px;
     display: flex;
     justify-content: center;
@@ -207,7 +221,7 @@ h2 {
     margin: 15px;
 }
 
-#services h4 {
+#services h3 {
     font-size: 25px;
     margin-top: 5px;
     margin-bottom: 20px;
