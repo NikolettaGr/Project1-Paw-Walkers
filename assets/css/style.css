@@ -39,6 +39,15 @@ h1 i {
     float: left;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 5px;
+    z-index: 9999;
+}
+
 /*Navigation links styling*/
 #menu {
     font-size: 110%;
