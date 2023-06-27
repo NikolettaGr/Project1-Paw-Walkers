@@ -284,6 +284,10 @@ h2 {
 }
 
 /*Styling gallery page*/
+#gallery {
+    margin: 0px 15px 15px 15px;
+}
+
 #gallery h2 {
     display: flex;
     justify-content: center;
@@ -307,4 +311,8 @@ h2 {
     padding: 20px;
     background-color: #ffffff;
 
+}
+
+.card h4 {
+    margin-bottom: 20px;
 }
