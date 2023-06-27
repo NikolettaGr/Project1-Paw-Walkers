@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Belanosima&display=swap');
 
+
+/*---> Global Settings <---*/
 *,
 *::before,
 *::after {
@@ -15,6 +17,9 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
+
+/*---> Home page styling <---*/
 
 /*Header and logo styling*/
 header {
@@ -67,7 +72,8 @@ h1 i {
 
 #menu a,
 #logo_container a,
-.benefits_button a {
+.benefits_button a,
+.button_2 a {
     text-decoration: none;
     color: inherit;
 }
@@ -87,7 +93,7 @@ h1 i {
     line-height: 80px;
 }
 
-/*Button*/
+/*---> Styling buttons <---*/
 .btn {
     background-color: #00bf8f;
     border-radius: 8px;
@@ -118,6 +124,15 @@ h1 i {
     margin-top: 20px;
     margin-left: 200px;
 }
+
+.button_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+
 
 /*Styling hero image*/
 #hero_image {
@@ -153,7 +168,8 @@ h2 {
     font-size: 180%;
 }
 
-/*Styling About Us section*/
+
+/*---> Styling About Us section <---*/
 #about_us {
     display: flex;
     justify-content: center;
@@ -197,7 +213,8 @@ h2 {
     margin-top: 5px;
 }
 
-/*Styling the service section*/
+
+/*---> Styling the service section <---*/
 #services h2 {
     font-size: 35px;
     display: flex;
@@ -235,7 +252,8 @@ h2 {
     margin-bottom: 20px;
 }
 
-/*Styling contact section*/
+
+/*---> Styling contact section <---*/
 #contact {
     display: flex;
     justify-content: center;
@@ -261,7 +279,10 @@ h2 {
     color: #00bf8f;
 }
 
-/*Styling footer*/
+
+
+/*--->Styling footer<---*/
+
 .footer {
     background-color: #fafafa;
     padding: 30px;
@@ -283,7 +304,9 @@ h2 {
     color: #00bf8f;
 }
 
-/*Styling gallery page*/
+
+/*---->Styling gallery page<----*/
+
 #gallery {
     margin: 0px 15px 15px 15px;
 }
@@ -294,15 +317,16 @@ h2 {
     align-items: center;
     height: 100%;
     margin-top: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .gallery_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
     grid-gap: 20px;
 }
 
+/*Styling cards*/
 .card {
     text-align: center;
     border: 1px solid #eaeaea;
@@ -315,4 +339,5 @@ h2 {
 
 .card h4 {
     margin-bottom: 20px;
+    color: #00bf8f;
 }
