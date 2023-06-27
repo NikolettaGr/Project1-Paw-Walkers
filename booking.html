@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website for dog walkers/sitters">
+    <meta name="keywords" content="dog walkers,dogs,love dogs,care dogs">
+    <meta name="author" content="Nikoletta Grishaber">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Paw Walkers || Sign Up</title>
+</head>
+
+<body>
+    <header>
+        <!--Nav bar content-->
+        <div class="navbar">
+            <!--Nav bar Logo-->
+            <div id="logo_container">
+                <a href="index.html">
+                    <h1>
+                        <i class="fa-solid fa-paw"></i> Paw Walkers
+                    </h1>
+                </a>
+            </div>
+            <!--Nav bar links-->
+            <nav id="menu">
+                <ul>
+                    <li class="current"><a href="signup.html">Booking</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="gallery.html" target="_blank">Gallery</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about_us">About Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <form id="find_sitter">
+        <fieldset>
+            <label>I'm looking for a service for my:</label>
+            <label><input type="checkbox" class="inline" value="dog" />Dog</label>
+            <label><input type="checkbox" class="inline" value="cat" />Cat</label>
+        </fieldset>
+        <div class="5_buttons">
+            <h5>I would like to book:</h5>
+            <button class="btn_form" type="button">Boarding</button>
+            <button class="btn_form" type="button">House Sitting</button>
+            <button class="btn_form" type="button">Dog Walking</button>
+            <button class="btn_form" type="button">Drop-in Visits</button>
+            <button class="btn_form" type="button">Training</button>
+        </div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+
+        <input type="submit" value="Submit and Search">
+
+    </form>
+
+</body>
+
+</html>
