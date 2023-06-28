@@ -39,13 +39,14 @@
             </nav>
         </div>
     </header>
-    <form id="find_sitter">
+    <form id="form_container">
+
         <fieldset>
-            <label>I'm looking for a service for my:</label>
+            <label class="bold">I'm looking for a service for my:</label>
             <label><input type="checkbox" class="inline" value="dog" />Dog</label>
             <label><input type="checkbox" class="inline" value="cat" />Cat</label>
         </fieldset>
-        <div class="5_buttons">
+        <div class="buttons">
             <h5>I would like to book:</h5>
             <button class="btn_form" type="button">Boarding</button>
             <button class="btn_form" type="button">House Sitting</button>
@@ -58,9 +59,9 @@
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email"><br>
-
-        <input type="submit" value="Submit and Search">
-
+        <div class="button_2">
+            <button class="btn " type="submit">Search</button>
+        </div>
     </form>
 
 </body>

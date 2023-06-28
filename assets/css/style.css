@@ -343,3 +343,78 @@ h2 {
 
 
 /*---> Booking page styling <---*/
+#form_container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+}
+
+fieldset {
+    border: none;
+    padding: 0.5rem 0;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+input[type="checkbox"] {
+    margin: 20px 4px 20px 0;
+    display: inline;
+    border-radius: 8px;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    font-size: 16px;
+    outline: 0;
+    padding: 15px;
+    width: 100%;
+    background-color: #e8eeef;
+    color: #8a97a0;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    margin-bottom: 10px;
+}
+
+.btn_form {
+    display: inline;
+    background-color: #e8eeef;
+    border-radius: 8px;
+    border: 2px solid #8a97a0;
+    box-sizing: border-box;
+    color: #8a97a0;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    transition: color 100ms;
+    font-family: 'Exo', sans-serif;
+}
+
+.btn_form:hover {
+    color: #3a3a3a;
+    border: 2px solid #3a3a3a;
+    cursor: pointer;
+}
+
+.btn_form:focus {
+    background-color: #e8eeef;
+    color: #3a3a3a;
+    border: 2px solid #3a3a3a;
+}
+
+.buttons {
+    margin-bottom: 25px;
+}
+
+#form_container h5 {
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+}
