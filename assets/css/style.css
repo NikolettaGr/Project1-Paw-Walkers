@@ -60,13 +60,13 @@ h1 i {
 /*Navigation links styling*/
 #menu {
     font-size: 110%;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 #menu a,
@@ -139,7 +139,7 @@ h1 i {
     height: 600px;
     position: relative;
     width: 100%;
-    background: url('../css/images/hero-image.jpg') no-repeat -200px -200px;
+    background: url('../images/hero-image.jpg') no-repeat -200px -200px;
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
         0 5px 15px 0 rgba(0, 0, 0, 0.08);
 }
