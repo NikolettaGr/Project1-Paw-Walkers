@@ -343,6 +343,8 @@ h2 {
 
 
 /*---> Booking page styling <---*/
+
+/*Styling form*/
 #form_container {
     max-width: 700px;
     margin: 40px auto;
@@ -381,6 +383,7 @@ input[type="email"] {
     margin-bottom: 10px;
 }
 
+/*Styling buttons in the form*/
 .btn_form {
     display: inline;
     background-color: #e8eeef;
