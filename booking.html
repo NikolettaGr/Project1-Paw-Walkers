@@ -44,11 +44,15 @@
             Loving Pet Care in Your Neighbourhood 💚
         </h1>
         <h2 class="subtitle">Book trusted sitters and dog walkers 🐶</h2>
-        <form id="form_container">
+        <form id="form_container" method="get" action="booking.html">
             <fieldset>
-                <h3 class="bold">I'm looking for a service for my:</h3>
-                <label for="dog"><input type="checkbox" id="dog" class="inline" value="dog" />Dog</label>
-                <label for="cat"><input type="checkbox" id="cat" class="inline" value="cat" />Cat</label>
+                <h3>I'm looking for a service for my:</h3>
+                <div class="checkbox">
+                    <label for="dog"><input type="checkbox" id="dog" value="dog">Dog</label>
+                </div>
+                <div class="checkbox inline">
+                    <label for="cat"><input type="checkbox" id="cat" value="cat">Cat</label>
+                </div>
             </fieldset>
             <div class="buttons">
                 <h4>I would like to book:</h4>
