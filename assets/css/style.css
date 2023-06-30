@@ -12,29 +12,33 @@
 }
 
 body {
-    font-family: 'Exo',
-        sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Exo', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
-
 
 /*---> Home page styling <---*/
 
 /*Header and logo styling*/
 header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     background: #fafafa;
     min-height: 80px;
-
 }
 
-h1 {
+header h1 {
     font-family: 'Belanosima',
         sans-serif;
     color: #00bf8f;
     text-transform: uppercase;
     margin-left: 50px;
-
 }
 
 h1 i {
@@ -72,18 +76,19 @@ h1 i {
 #menu a,
 #logo_container a,
 .benefits_button a,
-.button_2 a {
+.button_2 a,
+.button_link {
     text-decoration: none;
     color: inherit;
 }
 
 #menu a:hover {
-    color: #2FDD92;
+    color: #00bf8f;
     font-weight: bold;
 }
 
 .current {
-    color: #2FDD92;
+    color: #00bf8f;
     font-weight: bold;
 }
 
@@ -92,7 +97,9 @@ h1 i {
     line-height: 80px;
 }
 
-/*---> Styling buttons <---*/
+/*---> Main <---*/
+
+/*Styling buttons*/
 .btn {
     background-color: #00bf8f;
     border-radius: 8px;
@@ -131,30 +138,35 @@ h1 i {
     margin-top: 35px;
 }
 
-
-
 /*Styling hero image*/
 #hero_image {
-
     height: 600px;
     position: relative;
     width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat -200px -200px;
+    background: url('../images/hero-image.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
         0 5px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
 /*Styling text on the hero image*/
 .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 500px;
     height: 500px;
-    font-size: x-large;
     position: absolute;
-    top: 20%;
     right: 80px;
     text-align: right;
     color: #3a3a3a;
     letter-spacing: 1px;
+}
+
+.text h2 {
+    font-size: 3em;
 }
 
 .quote {
@@ -162,11 +174,6 @@ h1 i {
     font-style: italic;
     margin-bottom: 20px;
 }
-
-h2 {
-    font-size: 180%;
-}
-
 
 /*---> Styling About Us section <---*/
 #about_us {
@@ -214,6 +221,13 @@ h2 {
 
 
 /*---> Styling the service section <---*/
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #services h2 {
     font-size: 35px;
     display: flex;
@@ -257,9 +271,12 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin-top: 80px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 70rem;
     background-color: #f2f2f2;
-    height: 60vh;
+    padding: 3em 0;
+    gap: 10px;
 }
 
 .details_column {
@@ -278,39 +295,17 @@ h2 {
     color: #00bf8f;
 }
 
-
-
-/*--->Styling footer<---*/
-
-.footer {
-    background-color: #fafafa;
-    padding: 30px;
-    text-align: center;
-}
-
-.footer p {
-    margin-top: 30px;
-}
-
-.social_icons a {
-    color: #3a3a3a;
-    font-size: 40px;
-    margin: 0 20px;
-    text-decoration: none;
-}
-
-.social_icons a:hover {
-    color: #00bf8f;
-}
-
-
 /*---->Styling gallery page<----*/
-
 #gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 0px 15px 15px 15px;
 }
 
-#gallery h2 {
+#gallery h2,
+.subtitle {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -325,6 +320,10 @@ h2 {
     grid-gap: 20px;
 }
 
+#gallery img {
+    width: 250px;
+}
+
 /*Styling cards*/
 .card {
     text-align: center;
@@ -333,7 +332,6 @@ h2 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     background-color: #ffffff;
-
 }
 
 .card h4 {
@@ -341,60 +339,72 @@ h2 {
     color: #00bf8f;
 }
 
-
 /*---> Booking page styling <---*/
 
-/*Styling body*/
-#background_image {
-    background-image: url('/assets/css/images/booking-image.jpg');
+.booking h1 {
+    margin-bottom: 0;
+}
+
+.booking h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
 }
 
 /*Styling form*/
 #form_container {
     max-width: 800px;
-    margin: 40px auto;
+    margin: 20px auto;
     padding: 10px 20px;
-    background: #f4f7f8;
+    background: #00bf8f;
     border-radius: 8px;
+    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
+        0 5px 15px 0 rgba(0, 0, 0, 0.08);
 }
 
-fieldset {
-    border: none;
-    padding: 0.5rem 0;
+
+.checkbox {
+    display: inline-flex;
+    align-items: center;
+}
+
+.checkbox label {
+    margin-right: 30px;
 }
 
 .bold {
     font-weight: 800;
 }
 
-input[type="checkbox"] {
-    margin: 20px 4px 20px 0;
-    display: inline;
-    border-radius: 8px;
-}
-
-input.inline {
-    width: 25px;
-    height: 25px;
-    margin-left: 10px;
-}
-
 label {
     font-size: 20px;
 }
 
+input[type="checkbox"] {
+    width: 23px;
+    height: 23px;
+    margin-right: 6px;
+}
+
+fieldset {
+    padding: 5px 0px 20px 15px;
+    border-style: none;
+}
+
+#form_container h4 {
+    font-size: 20px;
+    padding: 5px;
+}
+
 input[type="text"],
 input[type="email"] {
-    background: rgba(255, 255, 255, 0.1);
     border: none;
     font-size: 16px;
     outline: 0;
     padding: 15px;
     width: 100%;
-    background-color: #e8eeef;
-    color: #8a97a0;
+    background: #e8eeef;
+    color: #3a3a3a;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
-    margin-bottom: 10px;
 }
 
 /*Styling buttons in the form*/
@@ -427,11 +437,52 @@ input[type="email"] {
     border: 2px solid #3a3a3a;
 }
 
+.btn_dark {
+    background: #3a3a3a;
+    color: #fafafa;
+    width: 25%;
+}
+
+.btn_dark:hover {
+    background-color: #f2f2f2;
+    color: #3a3a3a;
+    border: 2px solid #3a3a3a;
+}
+
 .buttons {
     margin-bottom: 25px;
 }
 
-#form_container h5 {
+.buttons i {
+    color: #3a3a3a;
+}
+
+#form_container h3 {
     margin-bottom: 10px;
     margin-bottom: 10px;
 }
+
+/*--->Styling footer<---*/
+.footer {
+    width: 100%;
+    background-color: #fafafa;
+    padding: 30px;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 30px;
+}
+
+.social_icons a {
+    color: #3a3a3a;
+    font-size: 40px;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+.social_icons a:hover {
+    color: #00bf8f;
+}
+
+/*---> Media queries <---*/
