@@ -27,7 +27,7 @@ body {
 /*Header and logo styling*/
 header {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
     background: #fafafa;
     min-height: 80px;
@@ -128,6 +128,11 @@ h1 i {
 }
 
 /*---> Main <---*/
+
+#main {
+    display: flex;
+    flex-direction: column;
+}
 
 /*Styling buttons*/
 .btn {
@@ -366,6 +371,13 @@ h1 i {
 }
 
 /*---> Booking page styling <---*/
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .booking h1 {
     margin-bottom: 0;
