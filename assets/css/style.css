@@ -36,7 +36,7 @@ header {
 header h1 {
     font-family: 'Belanosima',
         sans-serif;
-    color: #00bf8f;
+    color: #AD7BE9;
     text-transform: uppercase;
     margin-left: 50px;
 }
@@ -112,12 +112,12 @@ h1 i {
 }
 
 #menu a:hover {
-    color: #00bf8f;
+    color: #AD7BE9;
     font-weight: bold;
 }
 
 .current {
-    color: #00bf8f;
+    color: #AD7BE9;
     font-weight: bold;
 }
 
@@ -135,7 +135,7 @@ h1 i {
 
 /*Styling buttons*/
 .btn {
-    background-color: #00bf8f;
+    background-color: #AD7BE9;
     border-radius: 8px;
     border-style: none;
     box-sizing: border-box;
@@ -168,6 +168,7 @@ h1 i {
     justify-content: center;
     align-items: center;
     margin-top: 35px;
+    color: #fafafa;
 }
 
 /*Styling hero image*/
@@ -210,7 +211,7 @@ h1 i {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f2f2f2;
+    background-color: #EEEEEE;
     height: 700px;
 }
 
@@ -243,7 +244,7 @@ h1 i {
 }
 
 .text_block h3 {
-    color: #00bf8f;
+    color: #AD7BE9;
 }
 
 .text_block p {
@@ -320,10 +321,11 @@ h1 i {
 .map_column {
     flex: 1;
     margin-top: 20px;
+    background: #EEEEEE;
 }
 
-.green {
-    color: #00bf8f;
+.purple {
+    color: #AD7BE9;
 }
 
 /*---->Styling gallery page<----*/
@@ -363,16 +365,21 @@ h1 i {
 
 .card h4 {
     margin-bottom: 20px;
-    color: #00bf8f;
+    color: #AD7BE9;
 }
 
 /*---> Booking page styling <---*/
+.booking_page {
+    display: flex;
+    flex-direction: column;
+}
 
 .booking {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: black;
 }
 
 .booking h1 {
@@ -389,7 +396,7 @@ h1 i {
     max-width: 800px;
     margin: 20px auto;
     padding: 10px 20px;
-    background: #00bf8f;
+    background: #BE9FE1;
     border-radius: 8px;
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
         0 5px 15px 0 rgba(0, 0, 0, 0.08);
@@ -431,10 +438,12 @@ fieldset {
 
 input[type="text"],
 input[type="email"] {
-    border: none;
+    border-radius: 8px;
+    border: 1px solid #8a97a0;
     font-size: 16px;
     outline: 0;
     padding: 15px;
+    margin-bottom: 10px;
     width: 100%;
     background: #e8eeef;
     color: #3a3a3a;
@@ -516,7 +525,7 @@ input[type="email"] {
 }
 
 .social_icons a:hover {
-    color: #00bf8f;
+    color: #AD7BE9;
 }
 
 /*---> Media queries <---*/
