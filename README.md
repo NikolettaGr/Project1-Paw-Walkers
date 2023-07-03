@@ -87,7 +87,7 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
         * Short quote about dogs.
         * Button that leads directly to the booking page.
 
-    ![Hero Main](documentation/hero-main.png)
+    ![Hero Main](documentation/hero-main_image.png)
 
 
 ---
