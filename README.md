@@ -53,13 +53,13 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
     -The navigation bar is responsive:
 
-      * On tablets:
+      - On tablets:
         Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered. 
-        ![NavBar Tablets](documentation/navbar-on-tablets-phones.png)
+    ![NavBar Tablets](documentation/navbar-on-tablets-phones.png)
 
-      * On mobile devices: 
+      - On mobile devices: 
             Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
-        ![NavBar Mobile](documentation/navbar-on-tablets-phones.png)
+    ![NavBar Mobile](documentation/navbar-on-tablets-phones.png)
 
 ---
 
@@ -73,7 +73,7 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
         * Invites to fill out the booking form.      
 
 
-    ![Home Page](documentation/Home-page.png)
+    ![Home Page](documentation/home-page-image.png)
 
 ---
 
@@ -138,7 +138,7 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
     -It has a footer identical to the home page's footer.
 
      
-     ![Gallery Page](documentation/Gallery-page.png)
+![Gallery Page](documentation/gallery-page-image.png)
 
 ---
 + ### Booking Page 
@@ -147,8 +147,8 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
            - It has to checkboxes for the visitors to fill:
                   
-                 - The 1st is - DOG
-                 - The 2nd is - CAT
+                 * The 1st is - DOG
+                 * The 2nd is - CAT
 
            -All text input fields are customized.
            - Labels are animated when the input field is in focus and are not empty.
@@ -156,7 +156,7 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
            - The submit button is animated on hover.
            -It has a footer identical to the home page's footer.
 
-           ![Booking Page](documentation/Booking-page.png)
+![Booking Page](documentation/Booking-page.png)
 
 
  ---
@@ -297,7 +297,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Dog and Cat checkbox | Click on the checkbox | The checkbox is checked | Yes | Yes | These checkboxes are not required as the user can choose which kind of pet need a care |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| "Book" button | Click on the "Book" button
+| "Book" button | Click on the "Book" button |
+
 
 
 ---
