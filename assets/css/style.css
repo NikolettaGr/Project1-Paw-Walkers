@@ -529,3 +529,38 @@ input[type="email"] {
 }
 
 /*---> Media queries <---*/
+
+/* Media for Tablets */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /*Media for Home Page*/
+
+    .text {
+        width: 500px;
+        margin-top: 20px;
+    }
+
+    /*Map*/
+
+    .map_column iframe {
+        width: 300px;
+    }
+
+    /*Services*/
+
+    #services .box {
+        width: 300px;
+    }
+
+    /*Media for Booking Page*/
+
+    #form_container {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .btn_form {
+        margin-bottom: 10px;
+    }
+}
