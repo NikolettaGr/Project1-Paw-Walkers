@@ -1,3 +1,8 @@
+![Paw Walkers logo](documentation/paw-walkers-logo.png)
+
+
+---
+
 # *Paw Walkers*
 
 The Paw Walkers website allows people to learn about the company "Paw Walkers" and find sitters for dogs and cats. The visitors of the website could quickly search and contact the person to care them's pet.
@@ -12,6 +17,7 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
     * As a First Time Visitor, I want to easily understand the main purpose of the site, so I can learn more about the organization.
     * As a First Time Visitor, I want to be able to easily navigate through the website, so I can find the content.
+    * As a First Time Visitor, I want to see the testimonials, so I can see whether the organization is trustworthy.
 
 ### Returning Visitor Goals:
 
@@ -43,14 +49,17 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
     -The links have hover effect.
     -The navigation is clear and easy to understand for the user.
+    ![NavBar desktop](documentation/navigation-bar.png)
 
     -The navigation bar is responsive:
 
       * On tablets:
-     Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered. 
+        Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered. 
+        ![NavBar Tablets](documentation/navbar-on-tablets-phones.png)
 
       * On mobile devices: 
             Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
+        ![NavBar Mobile](documentation/navbar-on-tablets-phones.png)
 
 ---
 
@@ -62,6 +71,9 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
         * Emphasize the strong points of the company.
         * Offering services.
         * Invites to fill out the booking form.      
+
+
+    ![Home Page](documentation/Home-page.png)
 
 ---
 
@@ -75,19 +87,27 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
         * Short quote about dogs.
         * Button that leads directly to the booking page.
 
----
+    ![Hero Main](documentation/hero-main.png)
 
+
+---
 + #### About Us Section
 
     - About Us section has 4 cards with strong descriptive characteristics of the company.
     - Tells website visitors about safety.
     -Attracts viewers to use this company for caring them's pets.
 
+    ![About Section](documentation/about-us-section.png)
+
+
 ---
 + #### Services Section
 
     - Services section is about offering services which the company has.
     - Each service is described clearly with logo.
+
+    ![Service Section](documentation/services-section.png)
+
 
 ---
 + #### Contact Section
@@ -96,10 +116,16 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
     - Visitors can check the opening hours of the office.
     - Visitors can check the address on google maps.
 
+    ![Contact Section](documentation/contact-section.png)
+    
+
 ---
 + #### Footer
 
     - Footer contains social media links that open in a new tab and the website author's name.
+
+    ![Footer](documentation/footer.png)
+
 
 ---
 + ### Gallery Page
@@ -108,9 +134,11 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
     - Each card has a picture of an animal with its owner.
     - Each card has a story from the people who had an experience of using the Paw Walkers.
     - Each card has a name of the pet's owner.
-    -It has a button right after the cards that leads to more testimonials and stories website.
+    -It has a button after the cards that leads to more testimonials and stories website.
     -It has a footer identical to the home page's footer.
 
+     
+     ![Gallery Page](documentation/Gallery-page.png)
 
 ---
 + ### Booking Page 
@@ -126,6 +154,9 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
            - Labels are animated when the input field is in focus and are not empty.
            - All inputs are set to be required to fill out.
            - The submit button is animated on hover.
+           -It has a footer identical to the home page's footer.
+
+           ![Booking Page](documentation/Booking-page.png)
 
 
  ---
@@ -144,12 +175,37 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
 
 ---
+## Design
+
 ### Typography
 
+![Main Font](documentation/typography-main.png)
 
-- Exe Google Font was used as the main font of the website in order to increase readability of the content on the pages.
+- Exo Google Font was used as the main font of the website in order to increase readability of the content on the pages.
 
-- Fontawesome was used to attract viewers' attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Paw Walkers".
+![Logo Font](documentation/typography-logo.png)
+
+- Belanosima was used to attract viewer's attention to the company's logo, to make an accent on the strong points of the company, and to incentivize visitors to contact "Paw Walkers".
+
+### Wireframes
+
+#### Mobile devices
+
+- [Home Page. Mobile Screen]
+- [Gallery Page. Mobile Screen]
+- [Booking Page. Mobile Screen]
+
+#### Tablets
+
+- [Home Page. Tablet Screen]
+- [Gallery Page. Tablet Screen]
+- [Booking Page. Tablet Screen]
+
+#### Desktop
+
+- [Home Page. Desktop Screen]
+- [Gallery Page. Desktop Screen]
+- [Booking Page. Desktop Screen]
 
 ---
 ## Testing
@@ -160,65 +216,61 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     - Chrome:
 
-    ![Chrome](documentation/browsers_google.gif)
+    ![Chrome]
 
     - FireFox:
 
-    ![FireFox](documentation/browsers_firefox.gif)
+    ![FireFox]
 
     - Brave:
 
-    ![Brave](documentation/browsers_brave.gif)
+    ![Brave]
 
 + The website was checked by devtools implemented in Firefox and Chrome browsers.
 
     - Main Page:
 
-    ![Main Page](documentation/responsiveness_main_page.gif)
+    ![Main Page]
 
     - Gallery Page:
 
-    ![Gallery Page](documentation/responsiveness_gallery_page.gif)
+    ![Gallery Page]
 
-    - Contact Page:
+    - Booking Page:
 
-    ![Contact Page](documentation/responsiveness_contact_page.gif)
-
-    - Response Page:
-
-    ![Response Page](documentation/responsiveness_response_page.gif)
+    ![Booking Page]
 
 + The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
 
     - Desktop Screens:
 
-    ![Desktop 1024x600](documentation/desktop_1024_600.gif)
-    ![Desktop 1024x800](documentation/desktop_1024_800.gif)
-    ![Desktop 1366x768](documentation/desktop_1366_768.gif)
-    ![Desktop 1440x900](documentation/desktop_1440_900.gif)
-    ![Desktop 1600x900](documentation/desktop_1600_900.gif)
-    ![Desktop 1680x1050](documentation/desktop_1680_1050.gif)
-    ![Desktop 1920x1080](documentation/desktop_1920_1080.gif)
-    ![Desktop 1920x1200](documentation/desktop_1920_1200.gif)
-
+    ![Desktop 1024x600]
+    ![Desktop 1024x800]
+    ![Desktop 1366x768]
+    ![Desktop 1440x900]
+    ![Desktop 1600x900]
+    ![Desktop 1680x1050]
+    ![Desktop 1920x1080]
+    ![Desktop 1920x1200]
+    
     - Tablet Screens:
 
-    ![Tablet 600x960](documentation/tablet_600_960.gif)
-    ![Tablet 768x1024](documentation/tablet_768_1024.gif)
-    ![Tablet 800x1280](documentation/tablet_800_1280.gif)
-    ![Tablet 1024x768](documentation/tablet_1024_768.gif)
-    ![Tablet 1366x1024](documentation/tablet_1366_1024.gif)
-    ![Tablet Kindle 768x1024](documentation/tablet_kindle_768_1024.gif)
-
+    ![Tablet 600x960]
+    ![Tablet 768x1024]
+    ![Tablet 800x1280]
+    ![Tablet 1024x768]
+    ![Tablet 1366x1024]
+    ![Tablet Kindle 768x1024]
+    
     - Mobile Screens:
 
-    ![Mobile 320x480](documentation/mobile_320_480.gif)
-    ![Mobile 320x568](documentation/mobile_320_568.gif)
-    ![Mobile 360x640](documentation/mobile_360_640.gif)
-    ![Mobile 375x667](documentation/mobile_375_667.gif)
-    ![Mobile 384x640](documentation/mobile_384_640.gif)
-    ![Mobile 411x731](documentation/mobile_411_731.gif)
-    ![Mobile 414x736](documentation/mobile_414_736.gif)
+    ![Mobile 320x480]
+    ![Mobile 320x568]
+    ![Mobile 360x640]
+    ![Mobile 375x667]
+    ![Mobile 384x640]
+    ![Mobile 411x731]
+    ![Mobile 414x736]
 
 + The functionality of the links in the website was checked as well by different users.
 
@@ -260,24 +312,33 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   #### Home Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-
-    ![Home Page HTML Validator](documentation/w3_validator_home_page.png)
+    ![Home Page HTML Validator](documentation/W3C-validator.png)
     
+  
   #### Gallery Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Gallery Page HTML Validator](documentation/w3_validator_gallery_page.png)
+    ![Gallery Page HTML Validator](documentation/WC3-validator-gallery.png)
 
+  
   #### Booking Page
     - No errors or warnings were found when passing through the official W3C validator.
+     
+    ![Booking Page HTML Validator](documentation/W3C-validator-booking.png)
+
 
 
 + ### CSS
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
     
-    - 3 errors regarding *all: unset*: "Property all doesn't exist. The closest matching property name is fill : unset".
+    - 2 errors for imported style sheets.
+    - Even though this error is present, I don't believe it is 100% accurate.
 
-    - Even though this error is present, I don't believe it is 100% accurate, and more information can be found [here](https://developer.mozilla.org/en-US/docs/Web/CSS/all)
+    ![2 Warnings](/documentation/css-warnings.png)
+    
+
+    ![CSS Validator](documentation/css-jigsaw.png)
+
 
 + ### Accessibility and performance 
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
