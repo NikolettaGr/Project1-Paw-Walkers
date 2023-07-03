@@ -54,12 +54,12 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
     -The navigation bar is responsive:
 
       - On tablets:
-        Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered. 
-    ![NavBar Tablets](documentation/navbar-on-tablets-phones.png)
+        Navigation bar is split into one line.
+    ![NavBar Tablets](documentation/media-tablets.png)
 
       - On mobile devices: 
             Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
-    ![NavBar Mobile](documentation/navbar-on-tablets-phones.png)
+    ![NavBar Mobile](documentation/navbar-on-phones.png)
 
 ---
 
@@ -170,12 +170,15 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
      
 
 
 ---
 ## Design
+
+### Color Scheme
+
+![Color Palette](documentation/colors.png)
 
 ### Typography
 
@@ -335,7 +338,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     - 2 errors for imported style sheets.
     - Even though this error is present, I don't believe it is 100% accurate.
 
-    ![2 Warnings](/documentation/css-warnings.png)
+    ![2 Warnings](documentation/css-warnings.png)
     
 
     ![CSS Validator](documentation/css-jigsaw.png)
@@ -346,15 +349,15 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     
   #### Home page
 
-  ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
+  ![Home Page Lighthouse](documentation/accesibility-index.png)
 
   #### Gallery page
 
-  ![Gallery Page Lighthouse](documentation/lighthouse_gallery_page.png)
+  ![Gallery Page Lighthouse]()
 
   #### Booking page
 
-  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.png)
+  ![Contact Page Lighthouse](documentation/accessibility-booking.png)
 
 
 ---
@@ -394,7 +397,6 @@ In your IDE Terminal, type the following command to clone my repository:
     - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
     - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
     - [EzGif](https://ezgif.com) was used to resize GIF images.
-    - [GIMP](https://www.gimp.org/) was used to edit all README.md images.
     - [cooler](https://coolors.co/) was used to create the color palette.
 
 
