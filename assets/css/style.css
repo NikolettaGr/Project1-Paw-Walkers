@@ -564,3 +564,16 @@ input[type="email"] {
         margin-bottom: 10px;
     }
 }
+
+/*Media for desktop screens*/
+
+@media (min-width: 768px) and (max-width: 1920px) {
+
+    /*Media for Home PAge*/
+
+    #services .box {
+        width: 400px;
+    }
+
+    /*Media for Gallery Page*/
+}
