@@ -20,7 +20,7 @@
         <div class="navbar">
             <!--Nav bar Logo-->
             <div id="logo_container">
-                <a href="index.html">
+                <a href="index.html" aria-label="Visit our home page to learn about Paw Walkers website">
                     <h1>
                         <i class="fa-solid fa-paw"></i> <span>Paw Walkers</span>
                     </h1>
@@ -28,53 +28,64 @@
             </div>
             <!--Nav bar links-->
             <nav id="menu">
-                <ul>
-                    <li class="current"><a href="booking.html">Booking</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                </ul>
                 <div class="dropdown">
-                    <a href="index.html">Home ▾</a>
+                    <a href="index.html" aria-label="Visit our home page to learn about Paw Walkers website">Home ▾</a>
                     <div class="dropdown-content">
-                        <a href="index.html#about_us">About Us</a>
-                        <a href="index.html#services">Services</a>
-                        <a href="index.html#contact">Contact</a>
+                        <a href="index.html#about_us"
+                            aria-label="Visit our about us section to learn about company">About Us</a>
+                        <a href="index.html#services"
+                            aria-label="Visit our services section to learn about which services we offer">Services</a>
+                        <a href="index.html#contact"
+                            aria-label="Visit our contact section to see company's phone number,address,email">Contact</a>
                     </div>
                 </div>
+                <ul>
+                    <li class="current"><a href="booking.html"
+                            aria-label="Visit our booking page to learn about booking form">Booking</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html"
+                            aria-label="Visit our gallery page to learn about testimonials and images">Gallery</a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
-    <div class="booking">
-        <h1 class="subtitle">
-            Loving Pet Care in Your Neighbourhood 💚
-        </h1>
-        <h2 class="subtitle">Book trusted sitters and dog walkers 🐶🐾</h2>
-        <form id="form_container" method="get" action="https://nikolettagr.github.io/Project1-Paw-Walkers/booking.html">
-            <fieldset>
-                <h3>I'm looking for a service for my:</h3>
-                <div class="checkbox">
-                    <label for="dog"><input type="checkbox" id="dog" value="dog">Dog</label>
+    <main>
+        <div class="booking">
+            <h2 class="subtitle">
+                Loving Pet Care in Your Neighbourhood 💚
+            </h2>
+            <h3 class="subtitle">Book trusted sitters and dog walkers 🐶🐾</h3>
+            <form id="form_container" method="get"
+                action="https://nikolettagr.github.io/Project1-Paw-Walkers/booking.html">
+                <fieldset>
+                    <h4>I'm looking for a service for my:</h4>
+                    <div class="checkbox">
+                        <label for="dog"><input type="checkbox" id="dog" value="dog">Dog</label>
+                    </div>
+                    <div class="checkbox">
+                        <label for="cat"><input type="checkbox" id="cat" value="cat">Cat</label>
+                    </div>
+                </fieldset>
+                <div class="buttons">
+                    <h5>I would like to book:</h5>
+                    <button class="btn_form" type="button"><i class="fa-solid fa-moon"></i> Boarding</button>
+                    <button class="btn_form" type="button"><i class="fa-solid fa-house"></i> House Sitting</button>
+                    <button class="btn_form" type="button"><i class="fa-solid fa-paw"></i> Dog Walking</button>
+                    <button class="btn_form" type="button"><i class="fa-solid fa-bowl-food"></i> Drop-in Visits</button>
+                    <button class="btn_form" type="button"><i class="fa-solid fa-bolt"></i> Training</button>
                 </div>
-                <div class="checkbox">
-                    <label for="cat"><input type="checkbox" id="cat" value="cat">Cat</label>
+                <label for="name" class="bold">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                <label for="email" class="bold">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your Email" required><br>
+                <div class="button_2">
+                    <button class="btn btn_dark" type="submit">Book</button>
                 </div>
-            </fieldset>
-            <div class="buttons">
-                <h4>I would like to book:</h4>
-                <button class="btn_form" type="button"><i class="fa-solid fa-moon"></i> Boarding</button>
-                <button class="btn_form" type="button"><i class="fa-solid fa-house"></i> House Sitting</button>
-                <button class="btn_form" type="button"><i class="fa-solid fa-paw"></i> Dog Walking</button>
-                <button class="btn_form" type="button"><i class="fa-solid fa-bowl-food"></i> Drop-in Visits</button>
-                <button class="btn_form" type="button"><i class="fa-solid fa-bolt"></i> Training</button>
-            </div>
-            <label for="name" class="bold">Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
-            <label for="email" class="bold">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your Email" required><br>
-            <div class="button_2">
-                <button class="btn btn_dark" type="submit">Book</button>
-            </div>
-        </form>
-    </div>
+            </form>
+        </div>
+    </main>
     <footer class="footer">
         <div class="footer_content">
             <div class="social_icons">
