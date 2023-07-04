@@ -51,12 +51,12 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
     -The navigation bar is responsive:
 
-      - On tablets:
-        Navigation bar is split into one line: the first line filled with the logo and the second line filled with links. All elements are centered.
+    - On tablets:
+      Navigation bar is split into one line: the first line filled with the logo and the second line filled with links. All elements are centered.
     ![NavBar Tablets]()
 
-      - On mobile devices: 
-            Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
+    - On mobile devices: 
+      Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
     ![NavBar Mobile](documentation/navbar-on-phones.png)
 
 ---
@@ -141,20 +141,31 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 ---
 + ### Booking Page 
 
-    - Contact page has a contact form:
+ - Contact page has a contact form:
 
-           - It has to checkboxes for the visitors to fill:
+    - It has two checkboxes for the visitors to fill:
                   
-                 * The 1st is - DOG
-                 * The 2nd is - CAT
+        * The 1st is - DOG
+        * The 2nd is - CAT
 
-           -All text input fields are customized.
-           - Labels are animated when the input field is in focus and are not empty.
-           - All inputs are set to be required to fill out.
-           - The submit button is animated on hover.
-           -It has a footer identical to the home page's footer.
+     - All text input fields are customized.
+     - Labels are animated when the input field is in focus and are not empty.
+     - All inputs are set to be required to fill out.
+     - The submit button is animated on hover.
+     -It has a footer identical to the home page's footer.
 
 ![Booking Page](documentation/Booking-page.png)
+
+
+---
++ ### Response page
+
+   - Response page appears after submitting the booking form.
+   - It contains the thank you message and the promise to send email with all details about booking.
+   - It will automatically direct the user to the main page in 10 seconds.
+
+    ![Response page](documentation/response-page.png)
+
 
 
  ---
@@ -194,6 +205,8 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
 ### Wireframes
 
+![Wireframes](documentation/wireframes.pdf)
+
 
 ---
 ## Testing
@@ -202,31 +215,35 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + The website was tested on the following browsers: Chrome, Firefox, Brave.
 
-    - Chrome:
+  - Chrome:
 
-    ![Chrome]
+    ![Chrome](documentation/test-chrome.png)
 
-    - FireFox:
+  - FireFox:
 
-    ![FireFox]
+    ![FireFox](documentation/test-firefox.png)
 
-    - Brave:
+  - Brave:
 
-    ![Brave]
+    ![Brave](documentation/test-brave.png)
 
 + The website was checked by devtools implemented in Firefox and Chrome browsers.
 
-    - Main Page:
+  - Main Page:
 
     ![Main Page]
 
-    - Gallery Page:
+  - Gallery Page:
 
     ![Gallery Page]
 
-    - Booking Page:
+  - Booking Page:
 
     ![Booking Page]
+
+  - Response Page
+    
+    ![Response Page]
 
 
 + The functionality of the links in the website was checked as well by different users.
@@ -254,7 +271,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 | Dog and Cat checkbox | Click on the checkbox | The checkbox is checked | Yes | Yes | These checkboxes are not required as the user can choose which kind of pet need a care |
 | First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
 | Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| "Book" button | Click on the "Book" button |
+| "Book" button | Click on the "Book" button | The user is redirected to the response page | Yes | Yes | - |
 
 
 
@@ -321,6 +338,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   ![Contact Page Lighthouse](documentation/accessibility-booking.png)
 
 
+
 ---
 ## Deployment
 
@@ -346,7 +364,7 @@ In your IDE Terminal, type the following command to clone my repository:
 - add custom 404 page;
 - add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
 - improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
-- add fully functional booking form when I get enough knowledge in building;
+- add fully functional booking form when I get enough knowledge in building websites;
 
 ---
 + #### Media
