@@ -357,7 +357,7 @@ h1 i {
 
 .gallery_grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
     grid-gap: 20px;
 }
 
@@ -369,17 +369,15 @@ h1 i {
     height: 370px;
 }
 
-/*Styling cards*/
-.card {
+/*Styling figures*/
+figure {
     text-align: center;
-    border: 1px solid #eaeaea;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
-    padding: 20px;
 }
 
-.card h4 {
+figure h4 {
     margin-bottom: 20px;
     color: #00bf8f;
 }
@@ -548,7 +546,6 @@ input[type="email"] {
 /*---> Media queries <---*/
 
 /* Media for Tablets */
-
 @media (min-width: 768px) and (max-width: 1024px) {
 
     /*Media for Home Page*/
@@ -598,7 +595,6 @@ input[type="email"] {
 }
 
 /*Media for desktop screens*/
-
 @media (max-width: 1920px) {
 
     /*Media for Home PAge*/
@@ -606,22 +602,20 @@ input[type="email"] {
     #services .box {
         width: 400px;
     }
-
-    /*Media for Gallery Page*/
 }
 
 /*Media for mobile*/
-
 @media screen and (max-width: 23.5rem) {
-
 
     .navbar {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
+    }
 
-
+    header h1 {
+        margin-left: 0;
     }
 
     #main {
@@ -639,4 +633,7 @@ input[type="email"] {
         align-items: center;
     }
 
+    .dropdown {
+        margin-right: 0;
+    }
 }
