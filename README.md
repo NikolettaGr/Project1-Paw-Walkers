@@ -38,12 +38,12 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
     -Contains logo of the company on the left side.
 
     -Contains navigation links on the right side:
-        * HOME - leads to the home page where users can learn about the company Paw Walkers and there is a dropdown options with sections ABOUT US, SERVICES and CONTACT.
-        * ABOUT US - leads to about us section where users can learn about how is working the company.
-        * SERVICES -leads to services section where users can see all services which we offer.
-        * GALLERY - leads to the gallery page where users can see sitter experiences and images.
-        * CONTACT - leads to  the contact section where useres can get touch with the company.
-        * BOOKING - leads to the booking form page where users can fill out the form in order to get in touch with sitters and book them.
+      * HOME - leads to the home page where users can learn about the company Paw Walkers and there is a dropdown options with sections ABOUT US, SERVICES and CONTACT.
+      * ABOUT US - leads to about us section where users can learn about how is working the company.
+      * SERVICES -leads to services section where users can see all services which we offer.
+      * GALLERY - leads to the gallery page where users can see sitter experiences and images.
+      * CONTACT - leads to  the contact section where useres can get touch with the company.
+      * BOOKING - leads to the booking form page where users can fill out the form in order to get in touch with sitters and book them.
 
     -The links have hover effect.
     -The navigation is clear and easy to understand for the user.
@@ -52,8 +52,8 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
     -The navigation bar is responsive:
 
       - On tablets:
-        Navigation bar is split into one line.
-    ![NavBar Tablets](documentation/media-tablets.png)
+        Navigation bar is split into one line: the first line filled with the logo and the second line filled with links. All elements are centered.
+    ![NavBar Tablets]()
 
       - On mobile devices: 
             Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
@@ -65,10 +65,10 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
     - Represent: 
 
-        * the main idea of the company.
-        * Emphasize the strong points of the company.
-        * Offering services.
-        * Invites to fill out the booking form.      
+    * the main idea of the company.
+    * Emphasize the strong points of the company.
+    * Offering services.
+    * Invites to fill out the booking form.      
 
 
     ![Home Page](documentation/home-page-image.png)
@@ -81,9 +81,9 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
     - Main section have the block section below the   image that consist:
 
-        * Welcome message.
-        * Short quote about dogs.
-        * Button that leads directly to the booking page.
+     * Welcome message.
+     * Short quote about dogs.
+     * Button that leads directly to the booking page.
 
     ![Hero Main](documentation/hero-main_image.png)
 
@@ -178,6 +178,10 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
 ![Color Palette](documentation/colors.png)
 
+- Green color was used for logo , navigation links and buttons.It associated with trustworthiness, safety and calming attributes.
+- Light grey was used for  the background of the page
+- White was used also for background ,cards and header.White is generally considered a neutral backdrop that lets other colors in a design have a larger voice.Gray backgrounds are very common, as is gray typography.
+
 ### Typography
 
 ![Main Font](documentation/typography-main.png)
@@ -190,23 +194,6 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
 ### Wireframes
 
-#### Mobile devices
-
-- [Home Page. Mobile Screen]
-- [Gallery Page. Mobile Screen]
-- [Booking Page. Mobile Screen]
-
-#### Tablets
-
-- [Home Page. Tablet Screen]
-- [Gallery Page. Tablet Screen]
-- [Booking Page. Tablet Screen]
-
-#### Desktop
-
-- [Home Page. Desktop Screen]
-- [Gallery Page. Desktop Screen]
-- [Booking Page. Desktop Screen]
 
 ---
 ## Testing
@@ -241,37 +228,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
     ![Booking Page]
 
-+ The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
-
-    - Desktop Screens:
-
-    ![Desktop 1024x600]
-    ![Desktop 1024x800]
-    ![Desktop 1366x768]
-    ![Desktop 1440x900]
-    ![Desktop 1600x900]
-    ![Desktop 1680x1050]
-    ![Desktop 1920x1080]
-    ![Desktop 1920x1200]
-    
-    - Tablet Screens:
-
-    ![Tablet 600x960]
-    ![Tablet 768x1024]
-    ![Tablet 800x1280]
-    ![Tablet 1024x768]
-    ![Tablet 1366x1024]
-    ![Tablet Kindle 768x1024]
-    
-    - Mobile Screens:
-
-    ![Mobile 320x480]
-    ![Mobile 320x568]
-    ![Mobile 360x640]
-    ![Mobile 375x667]
-    ![Mobile 384x640]
-    ![Mobile 411x731]
-    ![Mobile 414x736]
 
 + The functionality of the links in the website was checked as well by different users.
 
@@ -303,11 +259,17 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 
 ---
+## Bugs
++ ##### Solved Bugs
+  - I had additional margins and paddings which I fixed quiqly.
+  - I had issues with navigation bar because I didn't specified display.
+
 + ##### Unsolved bugs
-    - None.
+  - None.
+
 + ##### Mistakes
-    - Mistakes were made while committing changes. I didn't specifize the file's name.
-    - While progressing in my code I learned to use present simple tense in commits.
+  - Mistakes were made while committing changes. I didn't specifize the file's name.
+  - While progressing in my code I learned to use present simple tense in commits.
 
 ## Validator testing
 + ### HTML
@@ -334,7 +296,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
     
     - 2 errors for imported style sheets.
-    - Even though this error is present, I don't believe it is 100% accurate.
+    - Even though this error is present, I don't understand why, while testing on different browsers they are working good.
 
     ![2 Warnings](documentation/css-warnings.png)
     
@@ -342,7 +304,8 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![CSS Validator](documentation/css-jigsaw.png)
 
 
-+ ### Accessibility and performance 
++ ### Lighthouse
+
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
     
   #### Home page
@@ -362,7 +325,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the [GitHub repository]https://github.com/NikolettaGr/Project1-Paw-Walkers, navigate to the Settings tab 
+  - In the [GitHub repository](https://github.com/NikolettaGr/Project1-Paw-Walkers), navigate to the Settings tab 
   - From the source section drop-down menu, select the **Main** Branch, then click "Save".
   - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
@@ -373,27 +336,28 @@ The live link can be found [here](https://nikolettagr.github.io/Project1-Paw-Wal
 In order to make a local copy of this project, you can clone it.
 In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone `
+- `git clone https://github.com/NikolettaGr/Project1-Paw-Walkers.git`
 
-- Alternatively, if you use Gitpod, you can [click here](), which will start the Gitpod workspace for you.
 
 ---
 ## Future improvements
+
 - add favicon with [Favicon Generator. For real.](https://realfavicongenerator.net/);
 - add custom 404 page;
 - add accessability report with [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/);
 - improve the quality of the commit messages (I am aware that some of them are not very clear and not meeting the standards and will improve them in the future);
-- add fully functional booking form when;
+- add fully functional booking form when I get enough knowledge in building;
 
 ---
 + #### Media
+
+- All the images for the website were taken from [Pexels](https://www.pexels.com/).
 
 
 
 + #### Tools
 
     - [Compress JPEG](https://compressjpeg.com/) was used to compress JPEG images.
-    - [IMGonline.com.ua](https://www.imgonline.com.ua/eng/resize-image.php) was used to resize images.
     - [EzGif](https://ezgif.com) was used to resize GIF images.
     - [cooler](https://coolors.co/) was used to create the color palette.
 
