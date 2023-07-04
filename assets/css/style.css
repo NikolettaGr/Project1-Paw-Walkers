@@ -20,16 +20,20 @@ body {
     font-family: 'Exo', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    min-height: 100vh;
 }
+
+main {
+    flex: 1 0 auto;
+}
+
 
 /*---> Home page styling <---*/
 
 /*Header and logo styling*/
 header {
     display: flex;
-    flex-direction: column-reverse;
     width: 100%;
-
     min-height: 80px;
 }
 
@@ -51,6 +55,9 @@ h1 i {
 }
 
 .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     width: 100%;
@@ -62,6 +69,7 @@ h1 i {
 }
 
 /*Navigation links styling*/
+
 #menu {
     font-size: 110%;
     letter-spacing: 1px;
@@ -124,6 +132,7 @@ h1 i {
 #menu,
 #logo_container {
     line-height: 80px;
+    display: flex;
 }
 
 /*---> Main <---*/
@@ -131,6 +140,9 @@ h1 i {
 #main {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 /*Styling buttons*/
@@ -282,8 +294,6 @@ h1 i {
 
 #services .box {
     text-align: center;
-    width: 30%;
-    cursor: pointer;
     padding: 50px;
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08);
     background-color: #ffffff;
@@ -313,7 +323,7 @@ h1 i {
 
 .details_column {
     flex: 1;
-    margin-left: 40px;
+    display: block;
     letter-spacing: 2px;
     margin-top: 30px;
 }
@@ -330,7 +340,9 @@ h1 i {
 
 /*---->Styling gallery page<----*/
 #gallery {
-    margin: 0px 15px 15px 15px;
+    width: 100%;
+    max-width: 120rem;
+    margin: 0 auto;
 }
 
 #gallery h2,
@@ -353,14 +365,18 @@ h1 i {
     width: 250px;
 }
 
+#gallery .size {
+    height: 370px;
+}
+
 /*Styling cards*/
 .card {
     text-align: center;
     border: 1px solid #eaeaea;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
     background-color: #ffffff;
+    padding: 20px;
 }
 
 .card h4 {
@@ -394,6 +410,7 @@ h1 i {
 /*Styling form*/
 #form_container {
     max-width: 800px;
+    width: 90%;
     margin: 20px auto;
     padding: 10px 20px;
     background: #00bf8f;
@@ -536,18 +553,33 @@ input[type="email"] {
 
     /*Media for Home Page*/
 
+    #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
     .text {
         width: 500px;
         margin-top: 20px;
     }
 
-    /*Map*/
-
-    .map_column iframe {
-        width: 300px;
+    #menu li {
+        font-size: 120%;
     }
 
-    /*Services*/
+    .dropdown a {
+        font-size: 120%;
+    }
+
+    #contact {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
 
     #services .box {
         width: 300px;
@@ -567,7 +599,7 @@ input[type="email"] {
 
 /*Media for desktop screens*/
 
-@media (min-width: 768px) and (max-width: 1920px) {
+@media (max-width: 1920px) {
 
     /*Media for Home PAge*/
 
@@ -576,4 +608,35 @@ input[type="email"] {
     }
 
     /*Media for Gallery Page*/
+}
+
+/*Media for mobile*/
+
+@media screen and (max-width: 23.5rem) {
+
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
