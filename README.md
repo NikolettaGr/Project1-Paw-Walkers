@@ -311,6 +311,13 @@ In order to confirm the correct functionality, responsiveness, and appearance:
      
     ![Booking Page HTML Validator](documentation/validator-booking.png)
 
+  
+  #### Response Page
+    - No errors or warnings were found when passing through the official W3C validator.
+
+    ![Response Page HTML Validator](documentation/validator-response.png)
+
+
 
 
 + ### CSS
