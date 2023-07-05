@@ -47,16 +47,19 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
     -The links have hover effect.
     -The navigation is clear and easy to understand for the user.
+
     ![NavBar desktop](documentation/navigation-bar.png)
 
     -The navigation bar is responsive:
 
     - On tablets:
       Navigation bar is split into one line: the first line filled with the logo and the second line filled with links. All elements are centered.
+
     ![NavBar Tablets](documentation/navbar-on-phones.png)
 
     - On mobile devices: 
       Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
+
     ![NavBar Mobile](documentation/navbar-on-phones.png)
 
 ---
@@ -229,21 +232,21 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 + The website was checked by devtools implemented in Firefox and Chrome browsers.
 
-  - Main Page:
+  - Home Page:
 
-    ![Main Page]
+    ![Home Page](documentation/responsive-viewer-home-page.png)
 
   - Gallery Page:
 
-    ![Gallery Page]
+    ![Gallery Page](documentation/responsive-viewer-gallery.png)
 
   - Booking Page:
 
-    ![Booking Page]
+    ![Booking Page](documentation/responsive-viewer-booking.png)
 
   - Response Page
     
-    ![Response Page]
+    ![Response Page](documentation/responsive-viewer-response.png)
 
 
 + The functionality of the links in the website was checked as well by different users.
@@ -280,6 +283,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 + ##### Solved Bugs
   - I had additional margins and paddings which I fixed quiqly.
   - I had issues with navigation bar because I didn't specified display.
+  - I had issues with media queries for mobile phones, but I managed them quiqly.
 
 + ##### Unsolved bugs
   - None.
