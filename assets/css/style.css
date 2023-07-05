@@ -25,6 +25,11 @@ body {
 
 main {
     flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 
@@ -42,7 +47,6 @@ header h1 {
         sans-serif;
     color: #00bf8f;
     text-transform: uppercase;
-    margin-left: 50px;
 }
 
 h1 i {
@@ -58,6 +62,7 @@ h1 i {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: column;
     position: fixed;
     top: 0;
     width: 100%;
@@ -182,7 +187,15 @@ h1 i {
     color: #fafafa;
 }
 
-/*Styling hero image*/
+/*Styling hero main*/
+#hero_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 #hero_image {
     height: 600px;
     position: relative;
@@ -224,6 +237,8 @@ h1 i {
     align-items: center;
     background-color: #EEEEEE;
     height: 700px;
+    width: 100%;
+    padding: 0 2em;
 }
 
 #about_us h2 {
@@ -269,6 +284,7 @@ h1 i {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 #services h2 {
@@ -311,7 +327,6 @@ h1 i {
 #contact {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     margin: 0 auto;
     width: 100%;
     max-width: 70rem;
@@ -588,94 +603,102 @@ input[type="email"] {
 /*---> Media queries <---*/
 
 /* Media for Tablets */
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (max-width: 771px) {
 
-    /*Media for Home Page*/
-
-    #main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
+    /*Navbar*/
+    header h1 {
+        margin-left: 0;
+        font-size: 1rem;
     }
 
-    .text {
-        width: 500px;
-        margin-top: 20px;
+    h1 i {
+        font-size: 1rem;
+    }
+
+    .dropdown {
+        margin-right: 2vw;
     }
 
     #menu li {
-        font-size: 120%;
+        all: unset
     }
 
-    .dropdown a {
-        font-size: 120%;
+    #menu li:first-child {
+        margin-right: 2vw;
     }
 
-    #contact {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    #services .box {
-        width: 300px;
-    }
-
-    /*Media for Booking Page*/
-
-    #form_container {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .btn_form {
-        margin-bottom: 10px;
+    .text {
+        margin-top: 4rem;
     }
 }
 
+/*Media for Booking Page*/
+.booking .subtitle {
+    padding-top: 4rem;
+}
+
+.btn_form {
+    margin-bottom: 10px;
+}
+
+
 /*Media for desktop screens*/
 @media (max-width: 1920px) {
-
-    /*Media for Home PAge*/
 
     #services .box {
         width: 400px;
     }
 }
 
-/*Media for mobile*/
-@media screen and (max-width: 375px) {
-
-    .navbar {
+@media (max-width: 1227px) {
+    #contact {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    header h1 {
-        margin-left: 0;
-    }
-
-    #main {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         align-items: center;
         width: 100%;
     }
 
-    #contact {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .text {
+        margin-top: 3rem;
     }
 
+    #gallery h2 {
+        margin-top: 7rem;
+    }
+}
+
+@media (max-width: 1267px) {
+    .text {
+        margin-top: 3rem;
+    }
+}
+
+/*Media for mobile*/
+@media screen and (max-width: 375px) {
+
     .dropdown {
-        margin-right: 0;
+        float: right;
+        overflow: hidden;
+    }
+
+    .text {
+        margin-top: 6rem;
+    }
+
+    #about_us {
+        width: 100%;
+        height: 900px;
+    }
+
+    #about_us h2 {
+        margin-top: -300px;
+    }
+
+    #about_us .image_column {
+        gap: 150px;
+    }
+
+    #contact iframe {
+        width: 370px;
     }
 }
