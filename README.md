@@ -322,20 +322,29 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 
 + ### Lighthouse
-
-    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
     
   #### Home page
 
   ![Home Page Lighthouse](documentation/accesibility-index.png)
 
+  
   #### Gallery page
 
-  ![Gallery Page Lighthouse]()
+  ![Gallery Page Lighthouse](documentation/lighthouse-gallery.png)
 
+   - I am aware that the performance not so good and I will fix it in the future, as I didn't have enough time.
+
+  
   #### Booking page
 
-  ![Contact Page Lighthouse](documentation/accessibility-booking.png)
+  ![Booking Page Lighthouse](documentation/accessibility-booking.png)
+
+
+  #### Response Page
+
+  ![Response Page Lighthouse](documentation/lighthouse-response.png)
+
+   - I am aware that the performance not so good and I will fix it in the future, as I didn't have enough time.
 
 
 
@@ -370,7 +379,6 @@ In your IDE Terminal, type the following command to clone my repository:
 + #### Media
 
 - All the images for the website were taken from [Pexels](https://www.pexels.com/).
-
 
 
 + #### Tools
