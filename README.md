@@ -297,19 +297,19 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   #### Home Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Home Page HTML Validator](documentation/W3C-validator.png)
+    ![Home Page HTML Validator](documentation/validator-index.png)
     
   
   #### Gallery Page
     - No errors or warnings were found when passing through the official W3C validator.
 
-    ![Gallery Page HTML Validator](documentation/WC3-validator-gallery.png)
+    ![Gallery Page HTML Validator](documentation/validator-gallery.png)
 
   
   #### Booking Page
     - No errors or warnings were found when passing through the official W3C validator.
      
-    ![Booking Page HTML Validator](documentation/W3C-validator-booking.png)
+    ![Booking Page HTML Validator](documentation/validator-booking.png)
 
 
 
@@ -395,7 +395,7 @@ In your IDE Terminal, type the following command to clone my repository:
 ---
 ## Acknowledgments
 
-- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) was a great supporter of another bold idea of mine for this project. Tim guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new.
+- [Iuliia Konovalova](https://github.com/IuliiaKonovalova) was a great supporter of another bold idea of mine for this project. Julia guided me through the development of the project and helped me to learn a lot of new things by challenging me to do something new.
 - [Code Institute](https://codeinstitute.net/) tutors and Slack community members for their support and help.
 - [Kevin Powell](https://www.youtube.com/user/KepowOb) for his amazing CSS tutorials.
 
