@@ -359,8 +359,7 @@ h1 i {
     margin: 0 auto;
 }
 
-#gallery h2,
-.subtitle {
+#gallery h2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -429,6 +428,15 @@ figure h4 {
     border-radius: 8px;
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11),
         0 5px 15px 0 rgba(0, 0, 0, 0.08);
+}
+
+.subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 35px;
+    margin-bottom: 50px;
 }
 
 
@@ -643,10 +651,6 @@ input[type="email"] {
 }
 
 /*Media for Booking Page*/
-.booking .subtitle {
-    padding-top: 4rem;
-}
-
 .btn_form {
     margin-bottom: 10px;
 }
@@ -699,5 +703,9 @@ input[type="email"] {
 
     #contact iframe {
         width: 370px;
+    }
+
+    .booking .subtitle {
+        padding-top: 4rem;
     }
 }
