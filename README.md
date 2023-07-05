@@ -53,7 +53,7 @@ The site can be accessed by this link: https://nikolettagr.github.io/Project1-Pa
 
     - On tablets:
       Navigation bar is split into one line: the first line filled with the logo and the second line filled with links. All elements are centered.
-    ![NavBar Tablets]()
+    ![NavBar Tablets](documentation/navbar-on-phones.png)
 
     - On mobile devices: 
       Navigation bar is split into to lines: the first line filled with the logo and the second line filled with links. All elements are centered.
