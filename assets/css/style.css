@@ -670,7 +670,7 @@ input[type="email"] {
 }
 
 /*Media for mobile*/
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 411px) {
     #menu li {
         all: unset
     }
